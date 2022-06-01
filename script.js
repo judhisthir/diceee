@@ -30,9 +30,12 @@ function nameing(){
         var judo = document.querySelectorAll("img")[0];
         judo.setAttribute("src","images/judo.jpeg");
         judo.setAttribute("width","100%");
+        judo.setAttribute("alt","judoimg");
         var kabu = document.querySelectorAll("img")[1]; 
         kabu.setAttribute("src","images/kabu.jpeg");
         kabu.setAttribute("width","100%");
+        kabu.setAttribute("alt","kabuimg");
+
     }
 }
 
