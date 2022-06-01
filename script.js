@@ -27,8 +27,12 @@ function nameing(){
     document.querySelector("#p2").innerHTML=name2;
     if (name1 == "judo" && name2 == "kabu"){
         document.querySelector("h1").innerHTML = ("i love you shraddha");
-        document.querySelectorAll("img")[0].setAttribute("src","judo.jpeg");
-        document.querySelectorAll("img")[1].setAttribute("src","kabu.jpeg");
+        var judo = document.querySelectorAll("img")[0];
+        judo.setAttribute("src","images/judo.jpeg");
+        judo.setAttribute("width","100%");
+        var kabu = document.querySelectorAll("img")[1]; 
+        kabu.setAttribute("src","images/kabu.jpeg");
+        kabu.setAttribute("width","100%");
     }
 }
 
