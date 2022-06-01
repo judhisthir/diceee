@@ -27,6 +27,8 @@ function nameing(){
     document.querySelector("#p2").innerHTML=name2;
     if (name1 == "judo" && name2 == "kabu"){
         document.querySelector("h1").innerHTML = ("i love you shraddha");
+        document.querySelectorAll("img")[0].setAttribute("src","judo.jpeg");
+        document.querySelectorAll("img")[1].setAttribute("src","kabu.jpeg");
     }
 }
 
