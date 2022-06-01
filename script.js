@@ -21,9 +21,9 @@ function randomizr(){
     }
 }
 function nameing(){
-    var name1=prompt("first name");
+    var name1=prompt("First Option");
     document.querySelector("#p1").innerHTML=name1;
-    var name2=prompt("second name");
+    var name2=prompt("Second Option");
     document.querySelector("#p2").innerHTML=name2;
     if (name1 == "judo" && name2 == "kabu"){
         document.querySelector("h1").innerHTML = ("i love you shraddha");

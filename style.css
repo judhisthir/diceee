@@ -33,22 +33,26 @@ button{
 }
 @media screen and (max-width:520px) {
     .head{
-        font-size: 4rem;
+        font-size: 4.5rem;
     }
     .player{
-        font-size: 1.5rem;
+        font-size: 1.9rem;
+        width: 150px;
         margin-bottom: 100px;
     }
     .diceimg1,.diceimg2{
-        width: 100px;
+        width: 100%;
     }
     button{
         margin: 5%;
-        width:5rem;
+        width:6rem;
         background-color: #570A57;
         color: #F806CC;
         border-radius: 5px;
         line-height: 1;
         padding: 5px;
+    }
+    .footer{
+        font-size: 2rem;
     }
 }
