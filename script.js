@@ -25,6 +25,9 @@ function nameing(){
     document.querySelector("#p1").innerHTML=name1;
     var name2=prompt("second name");
     document.querySelector("#p2").innerHTML=name2;
+    if (name1 == "judo" && name2 == "kabu"){
+        document.querySelector("h1").innerHTML = ("i love you shraddha");
+    }
 }
 
 
